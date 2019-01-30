@@ -1,0 +1,132 @@
+/* Universal styles */
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  font-size:
+}
+
+.header span {
+  text-align: left;
+  padding-left: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* main container */
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.main-banner {
+  position: relative;
+  text-align: center;
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  padding-top: 80px;
+}
+
+.main-banner h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+}
+
+.product, .develop, .deploy {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.product-image img {
+  height: 32px;
+}
+
+.deploy .product-image {
+  margin-top: 0;
+}
+.button-learn {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+.description {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+
+.products p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+
+/* footer */
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  position: fixed;
+ }
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
